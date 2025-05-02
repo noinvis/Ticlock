@@ -28,3 +28,9 @@
     font-size: 22px;
     letter-spacing: 2px;
 }
+
+@media (max-width:500px) {
+    .date{
+        margin-top: 10px;
+    }
+}
