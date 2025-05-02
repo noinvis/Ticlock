@@ -19,10 +19,10 @@
     flex-direction: column;
     justify-content: center;
     font-family: "Clock";
+    gap: 10px;
 }
 .time{
     font-size: 15vw;
-    padding: 10px 0;
 }
 .day, .date{
     font-size: 22px;
