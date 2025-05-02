@@ -34,3 +34,8 @@
         margin-top: 10px;
     }
 }
+@media (max-height:500px) {
+    .date{
+        margin-top: 30px;
+    }
+}
