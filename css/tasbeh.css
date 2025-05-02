@@ -122,5 +122,6 @@ button:active{
     .click{
         font-size: 55px;
         padding: 10px 0;
+        margin-bottom: 10px;
     }
 }
