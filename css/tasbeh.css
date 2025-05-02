@@ -117,4 +117,7 @@ button:active{
         width: 100px;
         height: 100px;
     }
+    .click{
+        font-size: 55px;
+    }
 }
