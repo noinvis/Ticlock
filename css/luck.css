@@ -19,8 +19,10 @@
     flex-direction: column;
 }
 .btns{
-    display: flex; 
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 .phone__number{
     font-size: 9vw;
@@ -39,4 +41,12 @@
 }
 .spin__btn:active{
     transform: scale(0.7);
+}
+
+@media (max-width:500px) {
+    .spin__btn{
+        width: 70px;
+        height: 70px;
+        font-size: 12px;
+    }
 }
