@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter_28pt-Regular.ttf");
+}
+@font-face {
+    font-family: "Number";
+    src: url("../fonts/digital-7.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Omad", sans-serif;
+    user-select: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Inter";
+}
+.borders{
+    background: rgb(54,53,58);
+    color: #aaa;
+    width: 400px;
+    border: 30px solid rgb(0,192,229);
+    border-radius: 100px 100px 200px 200px;
+    padding: 30px;
+    box-shadow: 0 0 30px rgb(0,192,229);
+}
+.name{
+    text-align: center;
+    font-size: "Inter";
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+.view{
+    margin: 0 auto;
+    width: 240px;
+    border-radius: 10px;
+    border: 10px solid white;
+    background: rgb(147,160,149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px white;
+}
+.click{
+    font-family: "Number";
+    color: white;
+    font-size: 85px;
+}
+.end{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+.reset{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: rgb(147,160,149);
+    font-family: "Inter";
+    font-size: 18px;
+    color: white;
+    transition: .3s ease-out;
+    box-shadow: 0 0 10px white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background: rgb(147,160,149);
+    font-family: "Inter";
+    font-size: 70px;
+    color: white;
+    transition: .3s ease-out;
+    box-shadow: 0 0 10px white;
+
+}
+button:active{
+    transform: scale(0.8);
+}
+
+@media (max-width:450px) {
+    .borders{
+        width: 340px;
+    }
+    .view{
+        width: 200px;
+    }
+    .center{
+        margin-top: 10px;
+    }
+    .reset{
+        width: 55px;
+        height: 55px;
+    }
+    .btn{
+        width: 100px;
+        height: 100px;
+    }
+}
