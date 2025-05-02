@@ -21,18 +21,10 @@
     font-family: "Clock";
 }
 .time{
-    font-size: 16vw;
+    font-size: 15vw;
     padding: 10px 0;
 }
 .day, .date{
     font-size: 22px;
     letter-spacing: 2px;
-}
-
-
-@media (max-width:500px) {
-    .date{
-        margin-top: 20px;
-    }
-    
 }
