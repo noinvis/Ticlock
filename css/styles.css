@@ -22,6 +22,7 @@
 }
 .time{
     font-size: 16vw;
+    padding: 10px 0;
 }
 .day, .date{
     font-size: 22px;
